@@ -1,0 +1,244 @@
+/* parametrage par défaut  */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+/* debut css pour  le header  */
+header {
+    height: 120px;
+    width: 100%;
+    /* background-color: green; */
+}
+
+
+/* debut css pour  la premiere partie du header  */
+.header_first {
+    height: 40px;
+    width: 100%;
+    background-color: #030722;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header_first .text {
+    width: 60%;
+    /* background-color: aquamarine; */
+    /* box-sizing: border-box; */
+    padding-top: 10px;
+}
+
+.header_first .text span {
+    font-size: 12px;
+    margin-left: 15px;
+    color: #D3D3D5;
+}
+
+.header_first .text i {
+    color: #D69B19;
+}
+
+.header_first .icons {
+    width: 12%;
+    /* background-color: brown; */
+    padding-top: 10px;
+}
+
+.header_first .icons i {
+    color: white;
+    background-color: #314159;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+
+}
+
+/* fin css pour  la premiere partie du header  */
+
+
+/* debut css pour  la deuxieme partie du header  */
+
+header .header_second {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    height: 80px;
+    justify-content: space-evenly;
+}
+
+header .header_second .logo {
+    width: 32%;
+    /* background-color: bisque; */
+    padding-top: 20px;
+    padding-left: 75px;
+}
+
+header .header_second .links {
+    width: 45%;
+    /* background-color: rgb(248, 136, 0); */
+    padding-top: 30px;
+    /* margin-left: 200px; */
+}
+
+header .header_second .links a {
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 20px;
+    color: black;
+
+}
+header .header_second .links a:hover {
+    color: #D69B19;
+
+}
+
+header .header_second .links a.active,
+header .header_second .links i {
+    color: #D69B19;
+
+}
+
+/* fin css pour  la deuxieme partie du header  */
+
+/* fin css pour  le header  */
+
+/* debut css pour  le carousel  */
+.carousel {
+    height: 500px;
+    /* background-color: red; */
+    width: 100%;
+    background-color: #030722;
+}
+
+.carousel img {
+    height: 500px;
+    width: 100%;
+    opacity: 0.5;
+}
+
+/* fin css pour  le carousel  */
+
+
+/* debut css pour  le contenu */
+.contenu {
+    display: flex;
+    width: 90%;
+    margin-top: 50px;
+    /* background-color: #314159; */
+    height: 550px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.contenu .text {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.contenu .text h1 {
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.contenu .text p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #D3D3D5;
+}
+
+.contenu .image {
+    width: 60%;
+    padding-top: 65px;
+}
+
+.contenu .image img {
+    margin-left: 60px;
+}
+
+progress::-moz-progress-bar {
+    /* color: red; */
+    margin-bottom: 10px;
+    background-color: #D69B19 !important;
+}
+
+#file {
+    height: 5px;
+    margin-bottom: 20px;
+}
+
+label{
+    margin-bottom: 5px;
+}
+/* fin css pour  le contenu */
+
+/* debut css pour  le footer */
+footer {
+    height: auto;
+    /* background-color: #314159; */
+    /* background-image: url(https://www.teahub.io/photos/full/66-664871_fitness-model-women-sports-monochrome-dumbbell-women-fitness.jpg); */
+    background-color: black;
+
+}
+
+
+footer .titre {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+
+footer .titre h1 {
+    margin-bottom: 20px;
+}
+
+footer .titre span {
+    color: #D3D3D5;
+}
+
+footer .text {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .text div {
+    width: 30%;
+    text-align: center;
+}
+
+footer .text div i {
+    font-size: 100px;
+    color: #D69B19;
+}
+footer .text div h2{
+    color: white;
+}
+
+footer .text div span{
+    color: #D3D3D5;
+    opacity: 1;
+}
+footer .ecran{
+    background-image: url(https://www.teahub.io/photos/full/66-664871_fitness-model-women-sports-monochrome-dumbbell-women-fitness.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    height: 400px;
+    
+}
+
+footer .text_ecran{
+    position: relative;
+    top: -400px;
+    height: 0;
+}
+
+
+/* fin css pour  le footer */
